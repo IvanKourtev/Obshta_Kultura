@@ -1,11 +1,10 @@
 services:
   - type: web
     name: obshta-kultura-quiz
-    env: dotnet
+    env: docker
     region: oregon
     plan: free
-    buildCommand: dotnet publish -c Release
-    startCommand: dotnet Obshta_Kultura.dll
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
