@@ -93,5 +93,6 @@ C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\refint
 C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\Obshta_Kultura.pdb
 C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\Obshta_Kultura.genruntimeconfig.cache
 C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\ref\Obshta_Kultura.dll
-C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\compressed\knw8ju6nim-gtpu4o80jd.gz
 C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\compressed\xk0c4lb7rz-fr7q2aak1r.gz
+c:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\Obshta_Kultura.sourcelink.json
+C:\Users\Ivan\source\repos\Obshta_Kultura\Obshta_Kultura\obj\Debug\net9.0\compressed\knw8ju6nim-5numimrsa5.gz

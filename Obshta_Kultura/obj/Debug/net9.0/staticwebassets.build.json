@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/U3qqzESpvRHq52J7qXFRZII6UZ/An4zCqgRarKAKDI=",
+  "Hash": "7TiAhaJei8x622wrAsU3tHTy142JQUp5oIQ/cZ15MmY=",
   "Source": "Obshta_Kultura",
   "BasePath": "_content/Obshta_Kultura",
   "Mode": "Default",
@@ -794,12 +794,12 @@
       "OriginalItemSpec": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-gtpu4o80jd.gz",
+      "Identity": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-5numimrsa5.gz",
       "SourceId": "Obshta_Kultura",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Obshta_Kultura",
-      "RelativePath": "css/site#[.{fingerprint=gtpu4o80jd}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=5numimrsa5}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -808,8 +808,8 @@
       "RelatedAsset": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tylivj8mze",
-      "Integrity": "tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0=",
+      "Fingerprint": "3t1b0i51zi",
+      "Integrity": "GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gtpu4o80jd",
-      "Integrity": "zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds=",
+      "Fingerprint": "5numimrsa5",
+      "Integrity": "oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-gtpu4o80jd.gz",
+      "Route": "css/site.5numimrsa5.css",
+      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-5numimrsa5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001607717042"
+          "Quality": "0.001464128843"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "621"
+          "Value": "682"
         },
         {
           "Name": "ETag",
-          "Value": "\"tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0=\""
+          "Value": "\"GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:25:59 GMT"
+          "Value": "Tue, 18 Mar 2025 19:23:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,18 +2772,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds=\""
+          "Value": "W/\"oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5numimrsa5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds="
+          "Value": "sha256-oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.5numimrsa5.css",
       "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2793,7 +2801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1230"
+          "Value": "1375"
         },
         {
           "Name": "Content-Type",
@@ -2801,121 +2809,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds=\""
+          "Value": "\"oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:25:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-gtpu4o80jd.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "621"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:25:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.gtpu4o80jd.css",
-      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-gtpu4o80jd.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001607717042"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "621"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:25:59 GMT"
+          "Value": "Tue, 18 Mar 2025 19:23:50 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gtpu4o80jd"
+          "Value": "5numimrsa5"
         },
         {
           "Name": "label",
@@ -2923,13 +2831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds="
+          "Value": "sha256-oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ="
         }
       ]
     },
     {
-      "Route": "css/site.gtpu4o80jd.css",
-      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\wwwroot\\css\\site.css",
+      "Route": "css/site.5numimrsa5.css.gz",
+      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-5numimrsa5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2938,7 +2846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1230"
+          "Value": "682"
         },
         {
           "Name": "Content-Type",
@@ -2946,56 +2854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds=\""
+          "Value": "\"GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:25:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gtpu4o80jd"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zL1EyjssrEKyvwB9kWm1s6axP+A93hySpgTDlIsOFds="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.gtpu4o80jd.css.gz",
-      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-gtpu4o80jd.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "621"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:25:59 GMT"
+          "Value": "Tue, 18 Mar 2025 19:23:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +2876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gtpu4o80jd"
+          "Value": "5numimrsa5"
         },
         {
           "Name": "label",
@@ -3021,7 +2884,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tepObDg7ZMJd+On7GBqarHXlXYlI/FZ+ZfumqPUUFJ0="
+          "Value": "sha256-GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-5numimrsa5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001464128843"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 19:23:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 19:23:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Ivan\\source\\repos\\Obshta_Kultura\\Obshta_Kultura\\obj\\Debug\\net9.0\\compressed\\knw8ju6nim-5numimrsa5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 19:23:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQrkPsPx943lVDIyLMNe1iE0Xaf410xilChEBKen2bE="
         }
       ]
     },

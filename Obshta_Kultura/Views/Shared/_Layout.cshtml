@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Обща Култура</title>
+    <title>Обща Култура</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -11,8 +11,21 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-primary border-bottom box-shadow mb-3">
-            <div class="container d-flex justify-content-center">
-                <a class="navbar-brand mx-auto h1 mb-0" style="font-size: 1.5rem;" asp-controller="Quiz" asp-action="Index">Обща Култура</a>
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Quiz" asp-action="Index">Обща Култура</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" data-bs-toggle="modal" data-bs-target="#suggestQuestionModal">
+                                <i class="fas fa-plus-circle"></i> Предложи въпрос
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -38,5 +51,92 @@
     @await RenderSectionAsync("Scripts", required: false)
     
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ivankourteq" data-description="Support me on Buy me a coffee!" data-message="Добре дошли! Можете да ме почерпите с кафе, ако желаете 😊" data-color  ="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+    <!-- Модал за предложение на въпрос -->
+    <div class="modal fade" id="suggestQuestionModal" tabindex="-1" aria-labelledby="suggestQuestionModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="suggestQuestionModalLabel">Предложи въпрос</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="suggestQuestionForm">
+                        <div class="mb-3">
+                            <label for="questionText" class="form-label">Въпрос</label>
+                            <textarea class="form-control" id="questionText" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correctAnswer" class="form-label">Правилен отговор</label>
+                            <input type="text" class="form-control" id="correctAnswer" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="wrongAnswers" class="form-label">Грешни отговори (по един на ред)</label>
+                            <textarea class="form-control" id="wrongAnswers" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="category" class="form-label">Категория</label>
+                            <select class="form-select" id="category" required>
+                                <option value="">Изберете категория</option>
+                                <option value="History">История</option>
+                                <option value="Geography">География</option>
+                                <option value="Literature">Литература</option>
+                                <option value="Science">Наука</option>
+                                <option value="Art">Изкуство</option>
+                                <option value="Sports">Спорт</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Описание (незадължително)</label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="suggestorEmail" class="form-label">Ваш имейл (незадължително)</label>
+                            <input type="email" class="form-control" id="suggestorEmail">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Затвори</button>
+                    <button type="button" class="btn btn-primary" onclick="submitQuestion()">Изпрати</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+<script>
+function submitQuestion() {
+    const questionData = {
+        questionText: document.getElementById('questionText').value,
+        correctAnswer: document.getElementById('correctAnswer').value,
+        wrongAnswers: document.getElementById('wrongAnswers').value.split('\n').filter(a => a.trim()),
+        category: document.getElementById('category').value,
+        description: document.getElementById('description').value,
+        suggestorEmail: document.getElementById('suggestorEmail').value
+    };
+
+    fetch('/Quiz/SuggestQuestion', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(questionData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Благодарим за предложението! Ще го разгледаме и ще го добавим в квиза, ако е подходящо.');
+            document.getElementById('suggestQuestionForm').reset();
+            bootstrap.Modal.getInstance(document.getElementById('suggestQuestionModal')).hide();
+        } else {
+            alert('Възникна грешка при изпращането на предложението. Моля, опитайте отново.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Възникна грешка при изпращането на предложението. Моля, опитайте отново.');
+    });
+}
+</script>

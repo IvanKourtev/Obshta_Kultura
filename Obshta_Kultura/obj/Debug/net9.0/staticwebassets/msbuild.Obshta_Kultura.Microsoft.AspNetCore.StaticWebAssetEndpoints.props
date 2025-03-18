@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Obshta_Kultura/css/site.5numimrsa5.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5numimrsa5"},{"Name":"integrity","Value":"sha256-oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ="},{"Name":"label","Value":"_content/Obshta_Kultura/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1375"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:23:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Obshta_Kultura/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zL1EyjssrEKyvwB9kWm1s6axP\u002BA93hySpgTDlIsOFds="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zL1EyjssrEKyvwB9kWm1s6axP\u002BA93hySpgTDlIsOFds=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 15:25:59 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Obshta_Kultura/css/site.gtpu4o80jd.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gtpu4o80jd"},{"Name":"integrity","Value":"sha256-zL1EyjssrEKyvwB9kWm1s6axP\u002BA93hySpgTDlIsOFds="},{"Name":"label","Value":"_content/Obshta_Kultura/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zL1EyjssrEKyvwB9kWm1s6axP\u002BA93hySpgTDlIsOFds=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 15:25:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1375"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oV4rrCmZm6tNjahTCQ5eluqT3BJTtJ4pyTMzACw4ppQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 19:23:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Obshta_Kultura/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
