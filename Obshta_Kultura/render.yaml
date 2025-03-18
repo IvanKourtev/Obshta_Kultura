@@ -2,10 +2,14 @@ services:
   - type: web
     name: obshta-kultura-quiz
     env: dotnet
+    region: oregon
+    plan: free
     buildCommand: dotnet publish -c Release
     startCommand: dotnet Obshta_Kultura.dll
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
       - key: ASPNETCORE_URLS
-        value: http://+:10000 
+        value: http://+:10000
+    healthCheckPath: /
+    autoDeploy: true 
